@@ -8,7 +8,7 @@ const getTheTitles = function(input) {
     let titles = [];
 
     for(const key in input){
-        let obj = input[key];//get array
+        let obj = input[key];//get obj
         if(obj.hasOwnProperty("title")) {
             titles.push(obj["title"]);
         }
